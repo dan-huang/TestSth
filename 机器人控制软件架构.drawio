@@ -1,0 +1,94 @@
+<mxfile host="app.diagrams.net" modified="2024-05-10T16:19:18.953Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="DaZBeQwZcgV4tZq7dRJR" version="24.3.1" type="github">
+  <diagram name="Page-1" id="U4SThaLxwMBHsehHA_8d">
+    <mxGraphModel dx="823" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="T2jaAFPdmnZH4lHyGPJD-1" value="" style="rounded=0;whiteSpace=wrap;html=1;align=center;spacingLeft=0;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;horizontal=1;labelBorderColor=default;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="280" y="465" width="490" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="vuciN_8sb0v1gXUFZUxv-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vuciN_8sb0v1gXUFZUxv-7" target="vuciN_8sb0v1gXUFZUxv-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vuciN_8sb0v1gXUFZUxv-7" value="传感器驱动" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vuciN_8sb0v1gXUFZUxv-8" value="执行器&lt;span style=&quot;background-color: initial;&quot;&gt;驱动&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="618" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vuciN_8sb0v1gXUFZUxv-13" value="Linux + RTOS" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="475" y="565" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vuciN_8sb0v1gXUFZUxv-14" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="425" as="sourcePoint" />
+            <mxPoint x="790" y="425" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vuciN_8sb0v1gXUFZUxv-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vuciN_8sb0v1gXUFZUxv-23" target="vuciN_8sb0v1gXUFZUxv-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vuciN_8sb0v1gXUFZUxv-23" value="传感器模块" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vuciN_8sb0v1gXUFZUxv-25" value="运动&lt;span style=&quot;background-color: initial;&quot;&gt;控制模块&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;align=left;spacingRight=11;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="623" y="230" width="167" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vuciN_8sb0v1gXUFZUxv-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="730" y="290" as="sourcePoint" />
+            <mxPoint x="701.5" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vuciN_8sb0v1gXUFZUxv-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vuciN_8sb0v1gXUFZUxv-29" target="vuciN_8sb0v1gXUFZUxv-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vuciN_8sb0v1gXUFZUxv-29" value="路径规划模块" style="rounded=0;whiteSpace=wrap;html=1;align=right;" vertex="1" parent="1">
+          <mxGeometry x="430" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vuciN_8sb0v1gXUFZUxv-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vuciN_8sb0v1gXUFZUxv-30" target="vuciN_8sb0v1gXUFZUxv-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vuciN_8sb0v1gXUFZUxv-30" value="用户输入模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vuciN_8sb0v1gXUFZUxv-34" value="控制指令" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="548" y="230" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vuciN_8sb0v1gXUFZUxv-35" value="传感器接口数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="485" y="298" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vuciN_8sb0v1gXUFZUxv-36" value="目标" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="385" y="235" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vuciN_8sb0v1gXUFZUxv-38" value="算法" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="246" width="30" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="vuciN_8sb0v1gXUFZUxv-40" value="系统层（主控制器）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="80" y="500" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vuciN_8sb0v1gXUFZUxv-42" value="控制软件" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="130" y="290" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vuciN_8sb0v1gXUFZUxv-43" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="156" as="sourcePoint" />
+            <mxPoint x="790" y="156" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vuciN_8sb0v1gXUFZUxv-44" value="执行指令" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="700" y="345" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vuciN_8sb0v1gXUFZUxv-45" value="传感器原始数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="485" y="428" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vuciN_8sb0v1gXUFZUxv-50" value="日志模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="180" width="520" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="vuciN_8sb0v1gXUFZUxv-52" value="状态机" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="242" width="60" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
